@@ -18,7 +18,7 @@ return new class extends Migration
             $table->unsignedBigInteger('id_jenis_pengguna')->index();
             $table->string('nama_pengguna', 100);
             $table->string('username', 100);
-            $table->string('password', 50);
+            $table->string('password', 100);
             $table->string('email', 50);
             $table->string('foto_profil', 255)->nullable();
             $table->timestamps();

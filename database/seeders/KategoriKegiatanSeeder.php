@@ -32,6 +32,6 @@ class KategoriKegiatanSeeder extends Seeder
             ],
            
         ];
-        DB::table('m_kategori_pengguna')->insert($data);
+        DB::table('m_kategori_kegiatan')->insert($data);
     }
 }

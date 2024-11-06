@@ -47,6 +47,30 @@ class PenggunaSeeder extends Seeder
                 'password'=> Hash::make('123'),
                 'email' => 'lailatul@gmail.com',
             ],
+            [
+                'id_pengguna' => 5,
+                'id_jenis_pengguna' => 4,
+                'nama_pengguna' => 'Dwi Atmo Nugroho, ST',
+                'username' => 'DosenAnggota2',
+                'password'=> Hash::make('123'),
+                'email' => 'Dwi@gmail.com',
+            ],
+            [
+                'id_pengguna' => 6,
+                'id_jenis_pengguna' => 4,
+                'nama_pengguna' => 'Anggi Putra Woon,A.Md.',
+                'username' => 'DosenAnggota3',
+                'password'=> Hash::make('123'),
+                'email' => 'anggi@gmail.com',
+            ],
+            [
+                'id_pengguna' => 7,
+                'id_jenis_pengguna' => 4,
+                'nama_pengguna' => 'Mariska Dwitya Adilasari, A. Md.',
+                'username' => 'DosenAnggota4',
+                'password'=> Hash::make('123'),
+                'email' => 'mariska@gmail.com',
+            ],
         ];
         DB::table('m_pengguna')->insert($data);
         //

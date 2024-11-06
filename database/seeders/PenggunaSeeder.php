@@ -20,7 +20,7 @@ class PenggunaSeeder extends Seeder
                 'id_jenis_pengguna' => 1,
                 'nama_pengguna' => 'Sarah',
                 'username' => 'Admin',
-                'password'=> Hash::make('123456'),
+                'password'=> Hash::make('123'),
                 'email' => 'sarah@gmail.com',
             ],
             [
@@ -28,7 +28,7 @@ class PenggunaSeeder extends Seeder
                 'id_jenis_pengguna' => 2,
                 'nama_pengguna' => 'Dr.Eng.Rosa Andrie Asmara, ST., MT.',
                 'username' => 'Pimpinan',
-                'password'=> Hash::make('1234567'),
+                'password'=> Hash::make('123'),
                 'email' => 'rosandrie@gmail.com',
             ],
             [
@@ -36,7 +36,7 @@ class PenggunaSeeder extends Seeder
                 'id_jenis_pengguna' => 3,
                 'nama_pengguna' => 'Widya Novy Nuraeny, A.Md.',
                 'username' => 'DosenPIC1',
-                'password'=> Hash::make('12345678'),
+                'password'=> Hash::make('123'),
                 'email' => 'widyanovy@gmail.com',
             ],
             [
@@ -44,7 +44,7 @@ class PenggunaSeeder extends Seeder
                 'id_jenis_pengguna' => 4,
                 'nama_pengguna' => 'Lailatul Qodriyah,S.Sos.',
                 'username' => 'DosenAnggota1',
-                'password'=> Hash::make('12345678'),
+                'password'=> Hash::make('123'),
                 'email' => 'lailatul@gmail.com',
             ],
         ];
